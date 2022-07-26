@@ -1,5 +1,5 @@
-const { ObjectId } = require("mongodb");
 const mongoose = require("mongoose");
+const { ObjectId } = mongoose.Schema;
 
 const userSchema = mongoose.Schema({
     first_name: {
